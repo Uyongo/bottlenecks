@@ -10,6 +10,6 @@ The algorithms in _bottleneckResultsPlotterRedUnequal.R_, _bottleneckResultsPlot
 
 Due to the large variation mentioned above, polynomial functions were fitted to the data-points obtained by the multiple simulation runs. These functions were used to determine local minima.
 
-\_Results\_:
+*Results*:
 
 
