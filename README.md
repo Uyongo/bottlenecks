@@ -6,8 +6,10 @@ The _simpleSimulator_ function (in _2023 12 05 simpleSimulator.R_) intoduced ear
 
 The _numberOfRepetitions_ function argument determines how many times a simulation run is repeated before calculating relevant metrics, incl. throughput and overall queue times. This argument was set to 1000 in the simulation runs below in an attempt to manage the large variation seen in outcomes. Unfortunately, even so, calculated metrics varied somewhat at repeated runs. The _numberOfRepetitions_ argument was not increased further, however, due to long computing times. Other default function arguments were discussed at https://github.com/Uyongo/fourStepsProcess. 
 
-The algorithms in _bottleneckResultsPlotterRedUnequal.R_, _bottleneckResultsPlotterRedEqual.R_, _bottleneckResultsPlotterPurpleUnequal.R_, and _bottleneckResultsPlotterPurpleEqual.R_ compile the data of a different set of simulation runs each. In the 'Red' (see first and second algorithm) and 'Purple' scenarios (see third and fourth algorithm) the number of available staff at step 3 are two and three, respectively. In the 'Unequal' (see first and third algorithm) and 'Equal' scenarios (see second and fourth algorithm), time is shifted from step 3 to step 4 only; or to steps 1, 2, and 4, respectively.
+The algorithms in _bottleneckResultsPlotterRedUnequal.R_, _bottleneckResultsPlotterRedEqual.R_, _bottleneckResultsPlotterPurpleUnequal.R_, and _bottleneckResultsPlotterPurpleEqual.R_ gather the data of a different set of simulation runs each. In the 'Red' (see first and second algorithm) and 'Purple' scenarios (see third and fourth algorithm) the number of available staff at step 3 are two and three, respectively. In the 'Unequal' (see first and third algorithm) and 'Equal' scenarios (see second and fourth algorithm), time is shifted from step 3 to step 4 only; or to steps 1, 2, and 4, respectively.
 
-Results:
+Due to the large variation mentioned above, polynomial functions were fitted to the data-points obtained by the multiple simulation runs. These functions were used to determine local minima.
+
+\_Results\_:
 
 
